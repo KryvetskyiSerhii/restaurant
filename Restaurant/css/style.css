@@ -9,7 +9,9 @@
 }
 
 body {
+    max-width: 1440px;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
 
 }
 
@@ -126,21 +128,14 @@ a {
 
 .header__tomato {
     position: absolute;
-    top: 100px;
-
-}
-
-.header__tomato img {
+    top: 130px;
     width: 150px;
 }
 
 .header__tomato-dim {
     position: absolute;
-    top: 130px;
-    left: 60px
-}
-
-.header__tomato-dim img {
+    top: 160px;
+    left: 60px;
     width: 100px;
     opacity: 0.1;
 }
@@ -148,48 +143,46 @@ a {
 .header__shrimp {
     position: absolute;
     top: 50px;
-    right: 250px
-}
-
-.header__shrimp img {
+    right: 50px;
     width: 42px;
     opacity: 0.1;
 }
 
+
 .header__cucumber {
     position: absolute;
     top: 250px;
-    right: 230px;
+    right: 80px;
 }
 
 .header__mushroom-den {
     position: absolute;
     top: 600px;
-    left: 180px;
+    left: 150px;
 }
 
 .header__mushroom {
     position: absolute;
     top: 570px;
-    left: 150px;
+    left: 120px;
 }
 
 .header__raisins-left {
     position: absolute;
     top: 480px;
-    left: 370px;
+    left: 270px;
 }
 
 .header__price {
     position: absolute;
     top: 480px;
-    right: 350px;
+    right: 200px;
 }
 
 .header__plus {
     position: absolute;
-    top: 545px;
-    right: 725px;
+    top: 565px;
+    right: 585px;
     width: 33px;
     height: 33px;
     background-color: white;
@@ -205,37 +198,36 @@ a {
 .header__raisin-right1 {
     position: absolute;
     top: 700px;
-    right: 500px;
+    right: 300px;
 }
 
 .header__raisin-right2 {
     position: absolute;
     top: 695px;
-    right: 430px;
+    right: 230px;
 }
 
 .header__raisin-top {
     position: absolute;
     top: 580px;
-    right: 420px;
+    right: 220px;
 }
 
 .header__pizza-small {
     position: absolute;
     top: 670px;
-    right: 200px;
-}
-
-.header__pizza-small img {
+    right: 50px;
     opacity: 0.1;
 }
+
+
 
 
 /* end header */
 
 .cart {
     position: absolute;
-    right: 100px;
+    right: 40px;
 }
 
 
@@ -254,10 +246,15 @@ a {
     padding-top: 37px;
 }
 
+.nav__dishes__menu {
+    width: 100%;
+}
+
 .nav__dishes__menu__list {
     list-style: none;
     display: flex;
     justify-content: center;
+    
 }
 
 .menu__dishes__list-btn {
@@ -327,7 +324,7 @@ a {
     font-size: 12px;
     line-height: 17px;
     text-align: right;
-    /* margin-right: 30px; */
+    
 
 }
 
@@ -437,7 +434,7 @@ a {
     width: 480px;
     height: 180px;
     top: 50px;
-    right: 700px;
+    right: 500px;
     text-align: center;
     align-content: center;
 }
@@ -474,9 +471,6 @@ a {
        
 }
 
-.form:not(:last-child) {
-    padding-right: 25px;
-}
 
 .form-title {
     font-weight: bold;
@@ -491,6 +485,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding-top: 42px;
+    width: 850px;
 }
 
 .form-input-name,
