@@ -84,17 +84,13 @@ a {
     box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
     border-radius: 59px;
     width: 25px;
-    height: 25px;
     align-items: center;
     margin-right: 16px;
-    display: block;
+    display: flex;
+    justify-content: center;
 
 }
 
-.phone-img {
-    padding-top: 5px;
-    padding-left: 5px;
-}
 
 .header__bottom {
     display: flex;
@@ -284,20 +280,26 @@ a {
 }
 
 .dishes__block {
-    background: url('../img/border.png') no-repeat center;
+    /* background: url('../img/border.png') no-repeat center; */
     width: 25%;
     align-items: center;
     text-align: center;
-    margin-bottom: 21px;
-    height: 418px;
-    box-sizing: border-box;
+    /* margin-bottom: 21px; */
+    height: 415px;
     padding: 20px;
     position: relative;
 }
 
+.dishes__block-wrapper {
+    background: url('../img/border.png') no-repeat center; 
+    background-size: 100% 100%;
+    
+    
+}
+
 .dishes__block__title__head {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;
     align-items: center;
 }
@@ -349,14 +351,16 @@ a {
     border: 2px solid #ECEEF6;
     border-radius: 59px;
     width: 33px;
-    height: 33px;
     align-items: center;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
 
 }
 
 .dishes__block__bag-img {
-    padding-top: 5px;
+    padding: 8px;
 }
 
 .dishes__block-hit {
@@ -381,15 +385,15 @@ a {
     box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
     border-radius: 59px;
     width: 60px;
-    height: 60px;
     margin: 66px auto 112px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
 
 }
 
-.dishes__update img {
-    padding-top: 17px;
-}
 
 .dishes__ribs {
     position: absolute;
@@ -496,7 +500,7 @@ a {
     border-radius: 57px;
     width: 260px;
     height: 60px;
-    padding-left: 10px;
+    padding-left: 31px;
 }
 
 .form-callback-btn {
